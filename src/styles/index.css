@@ -1,12 +1,62 @@
+body,
+html {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://t4.ftcdn.net/jpg/05/58/83/63/360_F_558836317_WcINsTmr1HQ9oOSsjCRvxPK97P9UPxUL.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* 
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.traffic-light {
+  width: 100px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
 
-*/
+.light {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.shine {
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+.pole {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+
+  z-index: 1;
+  margin-top: 0;
+}
