@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 //include images into your bundle
-import "/4Geeks/VMTore-TrafficLights/src/styles/index.css";
+import "../../styles/index.css";
 import Light from "./Light";
 
 //create your first component
